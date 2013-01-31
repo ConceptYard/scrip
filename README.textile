@@ -6,6 +6,23 @@ h2. More Information
 
 scrip is a subscription service system packaged as a Rails Engine. 'Subscription' is defined as the purchasing of a right to access one or more resources (typically a web application). Subscriptions can either be free or paid. The engine will provide a management interface and a reporting service for control and monitoring. scrip is meant to integrate with external payment services such as PayPal PayFlow and Spree Gateway for handling credit card transactions. Support for payment by check and purchase order is also provided.
 
+h2. Overview
+
+Main interface for managing the billing and payment for an account.
+
+A Subscription has a subscription type, purchases, rate plans, promotions, and any payments made to keep the subscription valid.
+
+The SubscriptionType replaces the AccountType. It defines the type of subscription (beta, free-trial, solo, law-firm, in-house, enterprise), standard or premium.
+
+The RatePlan details pricing, # users, available promotions, gross and net costs.
+
+The Promotion is a modification to the RatePlan which provides information on when, who, pricing modifications and code used in creating and modifying a Purchase.
+
+A Purchase combines a RatePlan + Promotions with a Subscription to create an an actionable entity for which Payments can be made. The Purchase contains the TimePeriod for which the Subscription is valid and information about the payer (name, address). It also details the type of payments allowed (credit card, check, PO).
+
+A Payment provides the amount and date/time when money was received from the customer. It records the payment type and contains the record of receipt provided by the merchant processor.
+
 h2. Required Gems
 
 * See the scrip.gemspec for dependencies
+
