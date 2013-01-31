@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Scrip::VERSION
   s.authors     = ["Robert Schmitt"]
   s.email       = ["bob@conceptyard.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/ConceptYard/scrip"
   s.summary     = "A subscription service system to create and manage purchases and payments in a RoR application."
   s.description = "scrip is a subscription service system packaged as a Rails Engine. 'Subscription' is defined as the purchasing of a right to access one or more resources (typically a web application). Subscriptions can either be free or paid. The engine will provide a management interface and a reporting service for control and monitoring. scrip is meant to integrate with external payment services such as PayPal PayFlow and Spree Gateway for handling credit card transactions. Support for payment by check and purchase order is also provided."
 
