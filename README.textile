@@ -16,7 +16,7 @@ The SubscriptionType replaces the AccountType. It defines the type of subscripti
 
 The RatePlan details pricing, # users, available promotions, gross and net costs.
 
-The Promotion is used to modify the RatePlan which provides information on who, when, pricing modifications and code used in creating and modifying a Purchase.
+The Promotion is used to modify the RatePlan by providing information on who, when, pricing modifications and code used in creating and modifying a Purchase.
 
 A Purchase combines a RatePlan + Promotions with a Subscription to create an an actionable entity for which Payments can be made. The Purchase contains the TimePeriod for which the Subscription is valid and information about the payer (name, address). It also details the type of payments allowed (credit card, check, PO).
 
