@@ -1,0 +1,11 @@
+h1. scrip
+
+"Subscriptions made easy."
+
+h2. More Information
+
+scrip is a subscription service system packaged as a Rails Engine. 'Subscription' is defined as the purchasing of a right to access one or more resources (typically a web application). Subscriptions can either be free or paid. The engine will provide a management interface and a reporting service for control and monitoring. scrip is meant to integrate with external payment services such as PayPal PayFlow and Spree Gateway for handling credit card transactions. Support for payment by check and purchase order is also provided.
+
+h2. Required Gems
+
+* See the scrip.gemspec for dependencies

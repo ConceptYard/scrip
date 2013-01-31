@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["bob@conceptyard.com"]
   s.homepage    = "TODO"
   s.summary     = "A subscription system to create and manage purchases and payments in a RoR application."
-  s.description = "scrip is a subscription service system packaged as a Rails Engine. 'Subscription' is defined as the purchasing of a right to access one or more resources (typically a web application). Subscriptions can either be free or paid. The engine will provide a management interface and a reporting service to control and monitor the service. scrip is meant to integrate with external payment services such as PayPal PayFlow and Spree Gateway for handling credit card transactions. Support for payment by check and purchase order is also supported."
+  s.description = "scrip is a subscription service system packaged as a Rails Engine. 'Subscription' is defined as the purchasing of a right to access one or more resources (typically a web application). Subscriptions can either be free or paid. The engine will provide a management interface and a reporting service for control and monitoring. scrip is meant to integrate with external payment services such as PayPal PayFlow and Spree Gateway for handling credit card transactions. Support for payment by check and purchase order is also provided."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
