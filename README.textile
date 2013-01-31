@@ -8,7 +8,7 @@ scrip is a subscription service system packaged as a Rails Engine. 'Subscription
 
 h2. Overview
 
-Main interface for managing the billing and payment for an account.
+Main interface for managing the billing and payment for an resource. Examples of resources are users and accounts.
 
 A Subscription has a subscription type, purchases, rate plans, promotions, and any payments made to keep the subscription valid.
 
