@@ -18,7 +18,7 @@ The RatePlan details pricing, # users, available promotions, gross and net costs
 
 The Promotion is used to modify the RatePlan by providing information on who, when, pricing modifications and code used in creating and modifying a Purchase.
 
-A Purchase combines a RatePlan + Promotions with a Subscription to create an an actionable entity for which Payments can be made. The Purchase contains the TimePeriod for which the Subscription is valid and information about the payer (name, address). It also details the type of payments allowed (credit card, check, PO).
+A Purchase combines a RatePlan and Promotions with a Subscription to create an an actionable entity to which Payments can be applied. The Purchase contains the TimePeriod for which the Subscription is valid and information about the payer (name, address). It also details the type of payments allowed (credit card, check, PO).
 
 A Payment provides the amount and date/time when money was received from the customer. It records the payment type and contains the record of receipt provided by the merchant processor.
 
